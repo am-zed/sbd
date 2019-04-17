@@ -3,8 +3,6 @@ sbd - Cookies based version - A python tool to convert Safari Books Online resou
 
 Update hardcoded cookes into sbd.py than run it with link to Safari book as argument.
 
-$ sbd LINK-TO-BOOK
-
 NB: This is a dirty quick modification.
 
 
@@ -38,21 +36,15 @@ Usage
 -----
 .. code-block:: bash
 
-	$ usage: sbd [-h] [-u LOGIN] [-p PASSWORD] safari_book_url
+	$ usage: sbd [-h] safari_book_url
 
-You need to pass the credentials to your Safari Books online account followed by the URL of the book you wish to download.
-
-.. code-block:: bash
-
-    $ sbd -u login -p password https://www.safaribooksonline.com/library/view/reactive-web-applications/9781633430099/
-
-An alternative is to set your credentials in environmental variables:
+You need to export your cookies and update the script with correct values.
 
 .. code-block:: bash
 
-	$ export SBD_LOGIN='your_login'
-	$ export SBD_PASSWORD='your_password'
-	$ sbd https://www.safaribooksonline.com/library/view/reactive-web-applications/9781633430099/
+$ sbd https://learning.oreilly.com/library/view/linux-observability-with/9781492050193/
+
+
 
 
 
