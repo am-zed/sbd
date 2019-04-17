@@ -1,7 +1,7 @@
 sbd - Cookies based version - A python tool to convert Safari Books Online resources into PDF.
 ==================================
 
-Update hardcoded cookes into sbd.py than run it with link to Safari book as argument.
+Update hardcoded cookies into sbd.py than run it with link to Safari book as argument.
 
 NB: This is a dirty quick modification.
 
